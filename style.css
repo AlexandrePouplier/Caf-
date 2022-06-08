@@ -1,0 +1,371 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  border: 1px solid red;
+}
+img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+section {
+  display: block;
+}
+
+h1 {
+  color: rgb(65, 143, 65);
+  text-transform: capitalize;
+  font-family: cursive;
+  font-size: 20px;
+}
+h2 {
+  text-transform: uppercase;
+  font-size: 45px;
+  color: #fff;
+}
+.navbar {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("./images/main-bcg.jpeg") no-repeat center/cover fixed;
+  min-height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+.shadow {
+  height: 0.5rem;
+  background: linear-gradient(to right, green, #e9b949, green);
+}
+footer {
+  background-color: rgb(92, 41, 41);
+  height: 100px;
+  text-align: center;
+  padding: 20px;
+  font-size: large;
+  color: #fff;
+  font-size: 30px;
+}
+h6 {
+  margin-top: 10px;
+}
+.button {
+  outline: 0.125rem solid green;
+  outline-offset: 0.25rem;
+  font-size: 1.25rem;
+  padding: 1rem 1.75rem;
+  background-color: green;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgb(0 0 0 / 20%);
+  margin: 3rem;
+}
+.heading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+.skills {
+  text-align: center;
+}
+
+.fume {
+  width: 100%;
+  display: block;
+  max-width: 1170px;
+}
+/* .formulaire {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.adress {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+/* .form {
+  background-color: white;
+  border-radius: 10px;
+  width: 50vw;
+  display: flex;
+} */
+/* .adress {
+  background-color: lightgray;
+} */
+.photo {
+  background-color: bisque;
+  width: 100%;
+  text-align: center;
+}
+h4 {
+  letter-spacing: 0.4rem;
+  margin-left: center;
+  margin-right: center;
+}
+#logo1,
+#logo2,
+#logo3,
+#logo4 {
+  font-size: 40px;
+  color: green;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  transition: all 0.3s linear;
+}
+
+.icone1,
+.icone2,
+.icone3,
+.icone4 {
+  /* display: flex; */
+  background-color: bisque;
+  /* flex-direction:row; */
+}
+
+.icone1:hover {
+  background-color: aliceblue;
+  border-bottom: 2px solid green;
+  transition: all 0.3s linear;
+}
+.icone2:hover {
+  background-color: aliceblue;
+  border-bottom: 2px solid green;
+}
+.icone3:hover {
+  background-color: aliceblue;
+  border-bottom: 2px solid green;
+}
+.icone4:hover {
+  background-color: aliceblue;
+  border-bottom: 2px solid green;
+}
+
+/* partie image  */
+.fume-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  border: 10px solid green;
+  overflow: hidden;
+}
+.fume {
+  height: 300px;
+  width: 100%;
+}
+.fume:hover {
+  transform: scale(1.2);
+  opacity: 0.5;
+}
+.the {
+  display: flex;
+}
+.about-text {
+  padding: 1rem;
+  border: 1px solid blue;
+  margin: 5px;
+  font-size: large;
+}
+
+.checkout img {
+  width: 50%;
+  height: 50%;
+}
+.checkout {
+  background-color: lightgreen;
+  padding: 20px;
+  margin: 5px;
+}
+.check {
+  margin: 25px;
+}
+#photo1 {
+  border-radius: 15px;
+}
+#inventory {
+  background-color: aqua;
+  border-radius: 5px solid green;
+}
+/* .explore {
+  background-color: red;
+} */
+
+.image1 {
+  border-radius: 5px;
+  margin: 30px;
+  border-radius: 10px;
+  z-index: 1;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.text-gray {
+  background-color: lightcoral;
+  padding: 20px;
+}
+#logo-center {
+  position: absolute;
+  z-index: 5;
+  top: 74%;
+  left: 40%;
+  transform: translate(40%, -120%);
+  font-size: 30px;
+  border: 6px solid lightcoral;
+  background-color: lightgreen;
+  border-radius: 45%;
+  color: forestgreen;
+  padding: 5px 5px;
+  display: flex;
+}
+.formulaire {
+  background-color: #e9b949;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.adress {
+  padding: 20px;
+}
+.form {
+  padding: 30px 50px;
+  background-color: aliceblue;
+  margin: 30px;
+  height: 400px;
+  border: 3px solid rgb(17, 147, 190);
+  border-radius: 5px;
+  text-align: center;
+}
+.texte-comm {
+  margin: 10px;
+}
+.the {
+  display: flex;
+  flex-direction: column;
+}
+/* .photo{
+  display:flex;
+  justify-content:space-evenly;
+} */
+
+@media screen and (min-width: 800px) {
+  .formulaire,
+  .the {
+    flex-direction: row;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .explore,
+  .checkout,
+  .photo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
+@media screen and (min-width: 1200px) {
+  #photo1 {
+    height: 270px;
+    width: 340px;
+  }
+}
+p {
+  display: flex;
+  max-width: 26rem;
+  padding: 10px;
+}
+
+/* animation titre 1 */
+.heading h1 {
+  animation-name: scale-up-center;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: none;
+}
+@keyframes scale-up-center {
+  0% {
+    transform: scale(0.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+/* fin animation titre 1 */
+/* animation button */
+.button {
+  animation-name: slit-in-horizontal;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: none;
+}
+
+@keyframes slit-in-horizontal {
+  0% {
+    transform: translateZ(-800px) rotateX(90deg);
+    opacity: 0;
+  }
+  50% {
+    transform: translateZ(-160px) rotateX(87deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translateZ(0) rotateX(0);
+  }
+}
+
+/* animation gros titre  */
+@keyframes focus-in-contract {
+  0% {
+    letter-spacing: 1em;
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+.heading h2 {
+  animation-name: focus-in-contract;
+  animation-duration: 1s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: none;
+}
+img,
+.text-gray {
+  border-radius: 5px;
+}
+
+/* partie tasse fumante */
+
+.the {
+  padding: 15px;
+}
+/* .fume{
+  height:201px;
+  width:300px;
+} */
+/* #photo1{
+  display:flex;
+ 
+} */
+/* .checkout{
+  display: flex;
+   justify-content: space-evenly; 
+} */
